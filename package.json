@@ -1,0 +1,42 @@
+
+{
+  "name": "resistor-calc",
+  "author": "Mohammad Esmaeilzadeh",
+  "description": "A npm library to calculate the value of electronic resistance based on the colors of the resistor or vice versa.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buglessir/resistor-calc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buglessir/resistor-calc/issues"
+  },
+  "homepage": "https://github.com/buglessir/resistor-calc",
+  "keywords": [
+    "resistor-calc",
+    "electronic",
+    "calculation",
+    "resistor"
+  ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "rollup": "^4.54.0",
+    "ts-jest": "^29.4.6",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3"
+  }
+}
